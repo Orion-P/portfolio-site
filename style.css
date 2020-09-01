@@ -33,11 +33,17 @@
 }
 
 .content-block {
+	font-size: 19px;
 	padding-bottom: 16px;
 }
 
 #project-title {
+	font-size: 32px;
 	padding-top: 15px;
+}
+
+.links {
+	font-size: 20px;
 }
 
 body > div > div.ui.segment.projects {
@@ -58,7 +64,7 @@ body > div > div.ui.segment.projects {
 	height: 80px;
 	display: flex;
 	margin: 0 auto;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 .github-text {
@@ -108,4 +114,79 @@ body > div > div.ui.segment.projects {
 
 .ui.form {
 	margin-top: 25px;
+}
+
+#dot-icons {
+	padding-bottom: 20px;
+	padding-top: 15px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.label {
+	font-size: 18px !important;
+	padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	.ui.image {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.orion {
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+		margin: 0 auto;
+		margin-top: -60px !important;
+		margin-bottom: -70px !important;
+	}
+}
+
+@media only screen and (min-width: 998px) {
+	.ui.image {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.orion {
+		transform: scale(0.6, 0.6);
+		-ms-transform: scale(0.6, 0.6);
+		-webkit-transform: scale(0.6, 0.6);
+		margin: 0 auto;
+		margin-top: -240px !important;
+		margin-bottom: -240px !important;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.ui.image {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.orion {
+		transform: scale(0.6, 0.6);
+		-ms-transform: scale(0.6, 0.6);
+		-webkit-transform: scale(0.6, 0.6);
+		margin: 0 auto;
+		margin-top: -265px !important;
+		margin-bottom: -265px !important;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.ui.image {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.orion {
+		transform: scale(0.6, 0.6);
+		-ms-transform: scale(0.6, 0.6);
+		-webkit-transform: scale(0.6, 0.6);
+		margin: 0 auto;
+		margin-top: -300px !important;
+		margin-bottom: -300px !important;
+	}
 }
