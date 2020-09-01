@@ -2,13 +2,20 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Contact Orion</title>
+		<meta
+			name="description"
+			content="Want Orion to work on a project for you? Send him an email
+        and let him know!"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
 			integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
 			crossorigin="anonymous"
 		/>
+		<link rel="icon" type="image/png" href="./images/favicon.png" />
+
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
@@ -21,8 +28,8 @@
 			<hr id="nav-divider" />
 			<div class="ui container">
 				<h1 class="title">Contact Me</h1>
-				<h1>Want to hire me?</h1>
-				<h2>Send me an email</h2>
+				<h1 class="contact-headers">Need help on a project?</h1>
+				<h2 class="contact-headers">Send me an email</h2>
 				<form
 					action="https://getform.io/f/5645beec-eb97-4ac4-86a6-123bb87a03af"
 					method="POST"
@@ -40,9 +47,26 @@
 						<textarea type="text" name="message"></textarea>
 					</div>
 
-					<button class="ui button" type="submit">Send</button>
+					<button id="submit" class="ui button" type="submit">Send</button>
 				</form>
 			</div>
 		</div>
+		<footer class="ui footer">
+			<div class="ui container footer-contents">
+				<a href="https://github.com/Orion-P"
+					><img class="github-image" src="/images/github.png"
+				/></a>
+				<a href="https://github.com/Orion-P">
+					<p class="github-text"><strong>GitHub</strong></p>
+				</a>
+				<div class="ui container resume">
+					<a download href="/Resume.pdf"
+						><h1 class="resume-text">
+							<i class="file alternate icon big"></i>Resume
+						</h1></a
+					>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
